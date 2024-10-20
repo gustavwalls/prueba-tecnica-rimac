@@ -1,6 +1,5 @@
 .header {
     padding: 14px 0;
-    border: 2px solid red;
 
     &__text {
         font-size: 12px;
@@ -19,9 +18,25 @@
     justify-content: space-between;
     align-items: center;
 }
+@media screen and (max-width: 769px) {
+    .header__container {
+        padding: 0 24px;
+    }
+  }
 
 .header__contact {
     display: flex;
-    gap: 18px;
+    gap: 16px;
    align-items: center;
+
+   
 }
+
+
+@media screen and (max-width: 769px) {
+    .header__contact{
+        .header__text{
+            display: none;
+        }
+    }
+  }

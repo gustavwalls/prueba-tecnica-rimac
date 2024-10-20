@@ -1,0 +1,131 @@
+.hero {
+    padding: 32px 0;
+}
+
+.hero__container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero__info {
+    .hero__promo {
+        background: linear-gradient(86.01deg, #00F4E2 0%, #00FF7F 100%);
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0.4000000059604645px;
+        padding: 4px 8px;
+        border-radius: 4px;
+    }
+
+    .hero__title {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
+        text-align: left;
+        padding-top: 18px;
+        padding-bottom: 8px;
+        max-width: 352px;
+    }
+
+    .hero__paragraph {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0.20000000298023224px;
+        max-width: 352px;
+        padding-bottom: 24px;
+    }
+}
+
+.form_row {
+    display: flex;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+
+.form_select {
+    height: 56px;
+    width: 90%;
+
+    select {
+        height: inherit;
+        width: 100%;
+        outline: none;
+        border: 0.5px solid #5E6488;
+        border-right: 0px;
+        border-radius: 8px 0px 0px 8px;
+        padding-left: 15px;
+
+        option {
+            font-size: 16px;
+        }
+    }
+
+}
+
+.form_input {
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    height: 56px;
+    width: 100%;
+
+    label {
+        font-size: 12px;
+        position: absolute;
+        top: 5px;
+        left: 12px;
+        color: #5E6488;
+    }
+
+    input {
+        width: 100%;
+        height: inherit;
+        padding-left: 12px;
+        padding-top: 12px;
+        font-size: 16px;
+        outline: none;
+        border: 0.5px solid #5E6488;
+        border-radius: 0px 8px 8px 0px;
+    }
+}
+
+.form_checkbox {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 24px;
+
+    input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+        accent-color: black;
+    }
+}
+
+.form_termcond {
+    margin-top: 12px;
+    margin-bottom: 24px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.10000000149011612px;
+    color: #03050F;
+    text-decoration: underline;
+}
+
+.form_btn {
+    outline: none;
+    border: none;
+    background-color: #03050F;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: center;
+    border-radius: 40px;
+    padding: 20px 4.0px;
+}
