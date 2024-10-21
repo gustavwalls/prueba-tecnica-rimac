@@ -17,9 +17,21 @@
   }
   .home{
     height: 100vh;
-    background-color: rgb(210, 245, 245);
+    background-color: rgba(248, 249, 255, 1);
+  }
+  .resume{
+    height: 100vh;
+    background-color: #fafbff;
   }
 
   .border_all{
     border-radius: 8px 8px 8px 8px !important;
  }
+
+ .text_error{
+  color: red;
+  font-size: 12px;
+  margin: 5px 0;
+ }
+
+ 

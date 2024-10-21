@@ -1,0 +1,39 @@
+.footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 14px 0;
+    background-color: #03050F;
+    color: white;
+    &__text {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    &__number {
+        font-size: 18px;
+        font-weight: 700;
+    }
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 769px) {
+    .footer__container {
+        padding: 0 24px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:16px;
+    }
+}
+
+.footer__contact {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
